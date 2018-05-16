@@ -1,47 +1,59 @@
 package ph.po;
 
-public class Petpublic class Pet
+public class  Pet
 {
     private int id;
     private String name;
     private String birthdate;
     private String  photo;
     private int ownerId;
-    private String  ownerName;//add by hlzhang, 2010130
-    public int getId() {
+    private String  ownerName;//add by hlzhang, 20180130
+    public int getId()
+    {
         return id;
     }
-    public void setId(int id) {
+    public void setId(int id)
+    {
         this.id = id;
     }
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
-    public String getBirthdate() {
+    public String getBirthdate()
+    {
         return birthdate;
     }
-    public void setBirthdate(String birthdate) {
+    public void setBirthdate(String birthdate)
+    {
         this.birthdate = birthdate;
     }
-    public String getPhoto() {
+    public String getPhoto()
+    {
         return photo;
     }
-    public void setPhoto(String photo) {
+    public void setPhoto(String photo)
+    {
         this.photo = photo;
     }
-    public int getOwnerId() {
+    public int getOwnerId()
+    {
         return ownerId;
     }
-    public void setOwnerId(int ownerId) {
+    public void setOwnerId(int ownerId)
+    {
         this.ownerId = ownerId;
     }
-    public String getOwnerName() {
+    public String getOwnerName()
+    {
         return ownerName;
     }
-    public void setOwnerName(String name) {
+    public void setOwnerName(String name)
+    {
         this.ownerName = name;
     }
 
