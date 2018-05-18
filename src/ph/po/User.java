@@ -1,5 +1,8 @@
 package ph.po;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User
 {
     private int id;
@@ -8,7 +11,7 @@ public class User
     private String role;
     private String tel;
     private String address;
-   // private List<Pet> pets=new ArrayList<Pet>();
+    private List<Pet> pets=new ArrayList<Pet>();
     public int getId() {
         return id;
     }
@@ -45,10 +48,10 @@ public class User
     public void setAddress(String address) {
         this.address = address;
     }
-  /*  public List<Pet> getPets() {
+    public List<Pet> getPets() {
         return pets;
     }
     public void setPets(List<Pet> pets) {
         this.pets = pets;
-    }*/
+    }
 }
