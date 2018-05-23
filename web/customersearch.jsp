@@ -1,4 +1,4 @@
-<<%--
+<%--
   Created by IntelliJ IDEA.
   User: hlzhang
   Date: 2018/4/11
@@ -15,7 +15,7 @@
 <body>
 <div>
     <div id="header">
-        <%@ include  file="inc/header"%>
+        <%@ include  file="inc/header.inc"%>
     </div>
     <div id="main">
         <form action="CustomerServlet" method="post">
