@@ -70,14 +70,7 @@ public class PetDAO
         return pets;
     }
 
-    /**
-     * author：hlzhang 20180420
-     * 根据宠物名称和主人姓名，查找宠物，并封装为宠物实体类的对象集合
-     * @param petName 宠物名称
-     * @param ownerName 主人姓名
-     * @return 宠物集合
-     * @throws Exception
-     */
+
     public List<Pet> search(String petName, String ownerName) throws Exception
     {
         List<Pet> pets = new ArrayList<Pet>();

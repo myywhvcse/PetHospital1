@@ -7,7 +7,7 @@ public class  Pet
     private String birthdate;
     private String  photo;
     private int ownerId;
-    private String  ownerName;//add by hlzhang, 20180130
+    private String  ownerName;
     public int getId()
     {
         return id;

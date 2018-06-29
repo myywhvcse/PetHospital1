@@ -1,20 +1,4 @@
-<<%--
-  Created by IntelliJ IDEA.
-  User: hlzhang
-  Date: 2017/12/15
-  Time: 10:24
-  To change this template use File | Settings | File Templates.
---%>
-<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
-<%--<html>--%>
-<%--<head>--%>
-<%--<title>$Title$</title>--%>
-<%--</head>--%>
-<%--<body>--%>
-<%--<h1><%out.println("Hello World");%></h1>--%>
-<%--<h2><%out.println("Welcome To JSP World");%></h2>--%>
-<%--</body>--%>
-<%--</html>--%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -26,7 +10,7 @@
 <body>
 <div>
   <div id="header">
-    <h1>社区宠物诊所</h1>
+    <h1>社区幼儿医院</h1>
   </div>
   <div id="main">
     <form action="LoginServlet" method="post">
@@ -59,7 +43,7 @@
       <%=request.getParameter("para")==null?"":request.getParameter("para") %></h4>
   </div>
   <div id="footer">
-
+    <%@ include file="inc/footer.inc"%>
   </div>
 </div>
 </body>

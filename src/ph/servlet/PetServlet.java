@@ -45,7 +45,7 @@ public class PetServlet extends HttpServlet
 
     }
 
-    //查询宠物的处理逻辑，by hlzhang 20180420
+
     private void searchPet(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException
     {
         String petName = request.getParameter("petName");
@@ -71,7 +71,7 @@ public class PetServlet extends HttpServlet
         }
     }
 
-    //在宠物管理页面执行删除宠物操作 by hlzhang，20180425
+
     private void deletePet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
         try

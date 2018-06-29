@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: hlzhang
-  Date: 2018/4/4
-  Time: 11:36
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
@@ -36,7 +30,9 @@
         </form>
         <h4 align="center" style="color:red"><%=request.getAttribute("msg")==null?"":request.getAttribute("msg") %></h4>
     </div>
-    <div id="footer"></div>
+    <div id="footer">
+        <%@ include file="inc/footer.inc"%>
+    </div>
 </div>
 </body>
 </html>
